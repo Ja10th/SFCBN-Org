@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap");
+header {
+  background-image: linear-gradient(
+      to right,
+      rgba(29, 29, 29, 0.9),
+      rgba(29, 29, 29, 0.9),
+      rgba(99, 95, 95, 0.308)
+    ),
+    url(https://media.istockphoto.com/photos/rows-of-bench-inside-a-silent-church-with-passerby-moving-in-from-picture-id1165467953?b=1&k=20&m=1165467953&s=170667a&w=0&h=NxTBXUpEB5-59-epAFhAMctYIg93niyNIfJBEN_54rY=);
+  background-size: cover;
+  height: 70vh;
+  background-position: center;
+}
+body {
+  font-family: "poppins";
+}
+.navbar-items {
+  margin-left: 380px !important;
+  margin-top: 30px;
+}
+.nav-back {
+  background: transparent !important;
+}
+.nav-item {
+  margin-left: 10px;
+}
+.nav-link {
+  color: #fff !important;
+  font-size: 16.5px;
+}
+.nav-btn {
+  margin-left: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 5px;
+}
+.logo {
+  position: absolute;
+  float: left;
+  width: auto;
+  height: 120px;
+  margin-top: -25px;
+  padding-right: 80px;
+  margin-left: 80px;
+  text-align: center;
+}
+.form-heading h1 {
+  margin-top: 100px;
+  margin-left: 150px;
+  color: #fff;
+  font-size: 52px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.form-heading p {
+  color: #fff;
+  margin-left: 150px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.about-partnership {
+  height: 500px;
+}
+.about-partnership h1 {
+  margin-top: 100px;
+  padding: 0 1.4em;
+  text-transform: uppercase;
+  float: left;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+.images {
+  display: Flex;
+  float: right;
+}
+.images2 {
+  display: Flex;
+  float: right;
+}
+.one {
+  height: 300px;
+  width: 250px;
+  background-image: linear-gradient(
+      to right,
+      rgba(29, 29, 29, 0.1),
+      rgba(29, 29, 29, 0.1),
+      rgba(99, 95, 95, 0.108)
+    ),
+    url(https://static.bangkokpost.com/media/content/20200619/c1_1937552_200619122619.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.5em;
+  margin-top: 100px;
+  margin-right: 20px;
+  box-shadow: 1px 1px 2px 2px rgb(223, 219, 219);
+}
+.cust {
+  color: #2b166f;
+  font-weight: bold;
+}
+.two {
+  height: 300px;
+  width: 250px;
+  background-image: linear-gradient(
+      to right,
+      rgba(29, 29, 29, 0.1),
+      rgba(29, 29, 29, 0.1),
+      rgba(99, 95, 95, 0.108)
+    ),
+    url(https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.5em;
+  margin-top: 300px;
+  box-shadow: 1px 1px 2px 2px rgb(223, 219, 219);
+}
+.three {
+  height: 300px;
+  width: 250px;
+  background-image: linear-gradient(
+      to right,
+      rgba(29, 29, 29, 0.1),
+      rgba(29, 29, 29, 0.1),
+      rgba(99, 95, 95, 0.108)
+    ),
+    url(https://t3.ftcdn.net/jpg/02/22/85/16/360_F_222851624_jfoMGbJxwRi5AWGdPgXKSABMnzCQo9RN.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.5em;
+  margin-right: 20px;
+  box-shadow: 1px 1px 2px 2px rgb(223, 219, 219);
+}
+.four {
+  height: 300px;
+  width: 250px;
+  background-image: linear-gradient(
+      to right,
+      rgba(29, 29, 29, 0.1),
+      rgba(29, 29, 29, 0.1),
+      rgba(99, 95, 95, 0.108)
+    ),
+    url(https://media.glamour.com/photos/5bb373f13f965a344b7bcd15/master/w_2560%2Cc_limit/Support-women-lede.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.5em;
+  margin-top: 200px;
+  box-shadow: 1px 1px 2px 2px rgb(223, 219, 219);
+}
+.the-form h1 {
+  text-align: center;
+  margin-top: 300px;
+  align-items: center;
+  justify-content: center;
+}
+.formm {
+  text-align: center;
+  margin-left: 500px;
+  margin-top: 70px;
+
+  height: 420px;
+  width: 380px;
+  margin-bottom: 20px;
+  border-radius: 0.8em;
+  box-shadow: 2px 2px 30px 1px #2b166f;
+}
+.formm h5 {
+  padding-top: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #2b166f;
+}
+input[type="text"] {
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 0.5em;
+  margin-top: 10px;
+}
+input[type="email"] {
+  width: 300px;
+  margin-bottom: 20px;
+  padding: 0.5em;
+  margin-top: 10px;
+}
+input[type="submit"] {
+  background: #2b166f;
+  color: #fff;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+.footer {
+  background: linear-gradient(
+      to right,
+      rgb(10, 10, 10, 0.1),
+      rgb(10, 10, 10, 0.1)
+    ),
+    url(https://wallpapercave.com/wp/wp10469254.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  margin-top: 40px;
+}
+.footer::before {
+  display: block;
+  background: #2b1670;
+  content: " ";
+  height: 305px;
+  width: 5px;
+  float: left;
+}
+
+.footer-ending {
+  display: flex;
+}
+.footer-ending h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 140px;
+  margin-top: 200px;
+}
+.footer-ending h2 {
+  font-size: 17px;
+  color: #fff;
+  margin-left: 900px;
+  margin-top: 200px;
+}
+.footer-ending ul {
+  color: #fff;
+  margin-left: 850px;
+}
+.footer-ending ul i {
+  margin-right: 3px;
+}
+.footer-line {
+  height: 1px;
+  background: #fff;
+  width: 1100px;
+  margin-left: 150px;
+  margin-top: 40px;
+}
+.right {
+  color: gray;
+  font-size: 15px;
+  margin-left: 150px;
+  margin-top: 10px;
+}
